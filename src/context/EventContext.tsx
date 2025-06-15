@@ -50,6 +50,53 @@ const initialEvents: Event[] = [
     attendees: ["john@campus.edu"],
     capacity: 50,
   },
+  // --- Add these to your initialEvents array in EventContext.tsx ---
+
+  {
+    id: "NLP-SEMINAR-2025",
+    title: "Advanced NLP: Transformer Architectures",
+    date: "2025-10-22",
+    location: "Science Hall, Room 301",
+    type: "academic",
+    attendees: ["tina@campus.edu", "habeeb@campus.edu"],
+    capacity: 40,
+  },
+  {
+    id: "STARTUP-PITCH-2025",
+    title: "Annual Startup Pitch Night",
+    date: "2025-11-05",
+    location: "Innovation Hub Auditorium",
+    type: "career",
+    attendees: ["mike@campus.edu", "sandra@campus.edu", "chinedu@campus.edu"],
+    capacity: 150,
+  },
+  {
+    id: "MOVIE-NIGHT-2025",
+    title: "Outdoor Movie Night: End of Semester Special",
+    date: "2025-12-10",
+    location: "Campus Green",
+    type: "social",
+    attendees: [],
+    capacity: 300,
+  },
+  {
+    id: "CV-WORKSHOP-2025",
+    title: "Computer Vision Workshop with Body.Scratch",
+    date: "2025-11-18",
+    location: "Online via Zoom",
+    type: "academic",
+    attendees: ["habeeb@campus.edu"],
+    capacity: 75,
+  },
+  {
+    id: "ALUMNI-GALA-2025",
+    title: "Homecoming Alumni Gala",
+    date: "2025-10-25",
+    location: "Grand Ballroom, University Hotel",
+    type: "social",
+    attendees: ["president@campus.edu"],
+    capacity: 250,
+  },
 ];
 
 export const EventProvider = ({ children }: { children: ReactNode }) => {

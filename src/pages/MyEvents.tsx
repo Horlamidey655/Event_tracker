@@ -4,7 +4,7 @@ import EventCard from "../components/EventCard";
 
 const MyEvents = () => {
   const context = useContext(EventContext);
-  const user = "current_user@campus.edu"; // Mock current user
+  const user = "current_user@campus.edu";
 
   if (!context) {
     return <div>Loading...</div>;
